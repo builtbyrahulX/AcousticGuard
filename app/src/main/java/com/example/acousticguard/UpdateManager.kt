@@ -22,7 +22,7 @@ import kotlin.concurrent.thread
 
 class UpdateManager(private val context: Context) {
 
-    private val GITHUB_API_URL = "https://api.github.com/repos/rahibladex/AcousticGuard/releases/latest"
+    private val GITHUB_API_URL = "https://api.github.com/repos/vertex.dev/AcousticGuard/releases/latest"
     private val PREFS_NAME = "NariShaktiSOSUpdatePrefs"
     private val KEY_DOWNLOAD_ID = "download_id"
     private val mainHandler = Handler(Looper.getMainLooper())
@@ -69,7 +69,7 @@ class UpdateManager(private val context: Context) {
                     }
 
                     if (downloadUrl.isEmpty()) {
-                        downloadUrl = "https://github.com/rahibladex/AcousticGuard/releases/download/v$latestVersion/NariShaktiSOS.apk"
+                        downloadUrl = "https://github.com/vertex.dev/AcousticGuard/releases/download/v$latestVersion/NariShaktiSOS.apk"
                     }
 
                     if (isNewerVersion(latestVersion, currentVersion) || forceCheck) {

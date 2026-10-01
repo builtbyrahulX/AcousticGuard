@@ -21,7 +21,7 @@ NariShakti SOS is an open-source Android application designed for personal safet
 
 ## Download
 
-You can download the latest APK from the [Releases](https://github.com/rahibladex/AcousticGuard/releases) page.
+You can download the latest APK from the [Releases](https://github.com/vertex.dev/AcousticGuard/releases) page.
 
 ## Tech Stack
 

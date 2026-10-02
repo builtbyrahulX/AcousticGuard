@@ -24,7 +24,7 @@
 
 ## 📥 Download
 
-Download the latest APK release from the [GitHub Releases](https://github.com/vertex.dev/AcousticGuard/releases) page.
+Download the latest APK release from the [GitHub Releases](https://github.com/builtbyrahulX/AcousticGuard/releases) page.
 
 ---
 

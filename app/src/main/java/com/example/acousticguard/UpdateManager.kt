@@ -69,7 +69,7 @@ class UpdateManager(private val context: Context) {
                     }
 
                     if (downloadUrl.isEmpty()) {
-                        downloadUrl = "https://github.com/vertex.dev/AcousticGuard/releases/download/v$latestVersion/NariShaktiSOS.apk"
+                        downloadUrl = "https://github.com/builtbyrahulX/AcousticGuard/releases/download/v$latestVersion/NariShaktiSOS.apk"
                     }
 
                     if (isNewerVersion(latestVersion, currentVersion) || forceCheck) {

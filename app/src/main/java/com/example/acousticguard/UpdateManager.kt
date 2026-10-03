@@ -22,7 +22,7 @@ import kotlin.concurrent.thread
 
 class UpdateManager(private val context: Context) {
 
-    private val GITHUB_API_URL = "https://api.github.com/repos/vertex.dev/AcousticGuard/releases/latest"
+    private val GITHUB_API_URL = "https://api.github.com/repos/builtbyrahulX/AcousticGuard/releases/latest"
     private val PREFS_NAME = "NariShaktiSOSUpdatePrefs"
     private val KEY_DOWNLOAD_ID = "download_id"
     private val mainHandler = Handler(Looper.getMainLooper())
